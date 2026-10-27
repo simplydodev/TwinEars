@@ -1,0 +1,16 @@
+# Build output. Release builds are made by GitHub Actions (.github/workflows/build.yml).
+dist/
+
+# Written next to the exe at runtime: personal settings (device IDs/names), logs, reports.
+*.ini
+*.log
+*.tmp
+TwinEars-selftest.txt
+
+# Editor and OS clutter
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
